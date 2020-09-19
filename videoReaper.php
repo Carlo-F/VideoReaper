@@ -3,7 +3,7 @@ ini_set('memory_limit', '-1'); // unlimited
 
 $opts = getopt("u:h::");
 
-$regex = "/<a\shref=\"\.?\/?(.+?)\">.+?(.MOV|.mov|.mp4|.webm)<\/a>/";
+$regex = "/<a\shref=\"\.?\/?(.+?)\">.+?(.MOV|.mov|.mp4|.mpg|.mpeg|.webm)<\/a>/";
 
 if(isset($opts["u"])){
     $url = $opts["u"];
